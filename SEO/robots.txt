@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://falconfutures.in/sitemap.xml
+Sitemap: https://falconfuture.in/sitemap.xml
