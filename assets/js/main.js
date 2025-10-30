@@ -1,4 +1,4 @@
-// Falcon Futures Main JavaScript
+// Falcon Future Main JavaScript
 const $ = window.jQuery;
 const Swiper = window.Swiper;
 const bootstrap = window.bootstrap;
@@ -12,7 +12,7 @@ $(document).ready(() => {
   // $("body").prepend(`
   //   <div id="loader">
   //     <div class="loader-ring">
-  //       <img src="assets/image/logo.png" alt="Falcon Futures Logo" class="loader-logo" id="logo-imgs"/>
+  //       <img src="assets/image/logo.png" alt="Falcon Future Logo" class="loader-logo" id="logo-imgs"/>
   //     </div>
   //     <div class="loading-text">Loading<span class="dots"></span></div>
   //   </div>
