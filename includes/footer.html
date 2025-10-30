@@ -75,20 +75,32 @@
 
     </div>
 
-    <!-- SEBI Registration Badge -->
-    <div class="sebi-badge-section mt-4 mb-3">
-      <div class="sebi-badge-card mx-auto" style="max-width: 600px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap">
-          <img src="../assets/image/SEBI-logo.png" alt="SEBI Logo" style="height: 60px; width: auto; background: white; padding: 8px; border-radius: 8px;">
-          <div class="text-white text-center text-md-start">
-            <h5 class="mb-1 fw-bold" style="font-size: 1.1rem;">SEBI Registered Investment Advisor</h5>
-            <p class="mb-0 small" style="opacity: 0.95;">Regulated & Compliant | Trusted Advisory Services</p>
+    <!-- Partner Badge -->
+    <div class="partner-badge-section mt-4 mb-3">
+      <div class="sebi-badge-card mx-auto" style="max-width: 700px; background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <div class="row align-items-center g-3">
+          <div class="col-12 col-md-6 text-white">
+            <div class="fw-bold text-center text-md-start" style="font-size: 1.1rem;">Our trusted partner</div>
+            <img class="partner-logo d-block mx-auto mx-md-0" src="../assets/image/SEBI-logo1.png" alt="SEBI Logo" style="width: auto; background: rgb(238, 235, 235); padding: 6px; border-radius: 8px; margin-top: 8px;">
           </div>
-          <div class="sebi-badge-icon" style="font-size: 2rem;">
-            <i class="fas fa-shield-alt text-white"></i>
+          <div class="col-12 col-md-6 text-white text-center text-md-end">
+            <div class="fw-bold text-uppercase">GROWUPRESEARCH</div>
+            <div class="small">SEBI Reg. No: INH000017365</div>
+            <div class="small">JVV SATYANARAYANA PROPRIETOR GROWH RESEARCH</div>
           </div>
         </div>
       </div>
+      <style>
+        /* Responsive tweaks for the partner badge */
+        .partner-badge-section .partner-logo { height: 72px; }
+        @media (max-width: 575.98px) {
+          .partner-badge-section .sebi-badge-card { padding: 16px; }
+          .partner-badge-section .partner-logo { height: 56px; }
+        }
+        @media (min-width: 768px) {
+          .partner-badge-section .partner-logo { height: 80px; }
+        }
+      </style>
     </div>
 
     <!-- Disclaimer Section -->
